@@ -79,7 +79,7 @@ always @ (posedge clk) begin
 end
 ```
 
-![Synthesized schematic of the asymmetric FIFO showing three FIFO instances, a select register and output multiplexers](images/npu_fifo_synthesized.png)
+![Synthesized schematic of the asymmetric FIFO showing three FIFO instances, a select register and output multiplexers](https://github.com/Aravindakshan953/FPGA_NPU/blob/main/FPGA_NPU_main%20Synthesized%20Design.png)
 
 *Synthesized schematic of `asymmetric_fifo`: three FIFO instances, the `sel` register, AND gates for `rd_en` and the output multiplexers.*
 
