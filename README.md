@@ -220,7 +220,7 @@ All user-specified timing constraints are met for the 100 MHz clock: worst setup
 | Hold (WHS / THS) | 0.079 ns | 0.000 ns | 0 | 7,614 |
 | Pulse width (WPWS / TPWS) | 4.232 ns | 0.000 ns | 0 | 1,240 |
 
-![Vivado Design Timing Summary for the asymmetric FIFO](images/npu_timing_summary.png)
+![Vivado Design Timing Summary for the asymmetric FIFO](https://github.com/Aravindakshan953/FPGA_NPU/blob/main/FPGA_NPU_main%20Timing.png)
 
 *Vivado Design Timing Summary for `asymmetric_fifo`.*
 
