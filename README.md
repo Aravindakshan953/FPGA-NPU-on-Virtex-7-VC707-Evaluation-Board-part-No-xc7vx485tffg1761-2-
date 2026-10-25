@@ -245,7 +245,7 @@ Total on-chip power is 0.275 W. Static power is 88% of the total, and 57% of the
 | Process | typical |
 | Confidence level | Low |
 
-![Vivado power summary for the asymmetric FIFO: 0.275 W total](images/npu_power_summary.png)
+![Vivado power summary for the asymmetric FIFO: 0.275 W total](https://github.com/Aravindakshan953/FPGA_NPU/blob/main/FPG_NPU%20Power.png)
 
 *Vivado power analysis of the implemented netlist (vectorless activity, so confidence is low).*
 
