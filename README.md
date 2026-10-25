@@ -264,7 +264,7 @@ The project includes the NPU testbench (`npu_tb.sv`) and a self-tester testbench
 
 The waveform below is the Vivado simulator view of `npu_tb` over 0 to 1,000 ns. It shows the NPU configuration constants of the testbench: `NTILE` = 7, `NDPE` = 0x28 (40), `NMFU` = 2, `NVRF` = 0xc (12), `NMRF` = 0x118 (280), `VRFD` and `MRFD` = 0x200 (512), `VRFAW` and `MRFAW` = 9, `NSIZE` = 0x200 (512), `NSIZEW` = 0xa (10), `NTAG` = 0x200 (512), `NTAGW` = 9, `DOT_PER_DSP` = 3, `PRIME_DOTW` = 0xa (10) and `NUM_DSP` = 4. All of them hold one constant value for the whole window, and they agree with the values in `npu.vh`. This confirms that the testbench elaborates with the intended configuration. It does not show instruction execution, FIFO data or a pass/fail result, so no functional verification result is claimed.
 
-![Simulation waveform of npu_tb showing the NPU configuration constants, 0 to 1000 ns](images/npu_waveform.png)
+![Simulation waveform of npu_tb showing the NPU configuration constants, 0 to 1000 ns](https://github.com/Aravindakshan953/FPGA_NPU/blob/main/FPGA_NPU%20Waveform.png)
 
 *Simulation waveform of `npu_tb`: configuration constants over 0 to 1,000 ns.*
 
